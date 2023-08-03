@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Comforter&family=Inter:wght@100;500&family=Kenia&family=Playfair+Display:ital@1&family=Poppins:ital,wght@1,200&family=Roboto&family=Rubik+Distressed&family=Rubik:wght@500&display=swap');
+.items {
+	width: 700px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+	display: grid;
+	grid-template-columns: 4fr 3fr 1.5fr 1fr;
+	margin-left: 200px;
+	margin-top: 20px;
+	padding-right: 15px;
+    border-radius: 4px; 
+}
+
+.items2 {
+	width: 700px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: rgb(176, 249, 251);
+	display: grid;
+	grid-template-columns: 4fr 3fr 1.5fr 1fr;
+	margin-left: 200px;
+	margin-top: 20px;
+	padding-right: 15px;
+    border-radius: 4px; 
+}
+.title {
+	font-family: 'Rubik', sans-serif;
+	display: flex;
+	align-items: center;
+}
+.price {
+	font-family: 'Rubik', sans-serif;
+	display: flex;
+	align-items: center;
+}
+.deletebtn {
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgb(9, 9, 85);
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	margin-top: 40px;
+	padding-left: 10px;
+}
+.error{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.imgs {
+	width: 240px;
+	height: 120px;
+    border-radius: 4px;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.inputs-form {
+	width: 90%;
+	max-width: 40rem;
+	margin: 2rem auto;
+	padding: 2rem;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	border-radius: 3px;
+	display: flex;
+	flex-direction: column;
+}
+.inputs-form label {
+	font-weight: bold;
+	flex: 1;
+	color: rgb(0, 0, 0);
+	margin-bottom: 0.5rem;
+	margin-top: 10px;
+	font-family: 'Rubik', sans-serif;
+}
+.inputs-form input {
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+	flex: 3;
+	font-weight: bold;
+	font: inherit;
+	padding: 0.35rem 0.35rem;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+}
+.inputs-form input:focus {
+	outline: none;
+	border-color: #0d1825;
+	background: #f6dbfc;
+}
+.btn {
+	padding: 0.5rem;
+	width: 70px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgb(9, 9, 85);
+	color: white;
+	font-family: 'Rubik', sans-serif;
+	margin-top: 16px;
+	margin-left: 568px;
+}
+.btn:hover {
+	background-color: #0d1825;
+}
